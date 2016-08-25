@@ -1,0 +1,19 @@
+<head>
+  <title>contract-server</title>
+</head>
+
+<body>
+  {{> Contracts}}
+</body>
+
+<template name="Contracts">
+  {{#each contracts}}
+    <div class="contract">
+      <h1>{{name}}</h1>
+      <pre class="implementation">{{implementation}}</pre>
+      {{#each tests}}
+        <pre class="test">{{.}}</pre>
+      {{/each}}
+    </div>
+  {{/each}}
+</template>

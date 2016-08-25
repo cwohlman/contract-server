@@ -1,0 +1,22 @@
+/* CSS declarations go here */
+h1 {
+  text-align: center;
+}
+.contract {
+  margin-bottom: 25px;
+  border-bottom: 1px solid black;
+}
+.implementation {
+  margin: 15px;
+  padding: 15px;
+  border: 1px solid blue;
+  background: rgb(205, 205, 255);
+  border-radius: 10px;
+}
+.test {
+  margin: 15px;
+  padding: 15px;
+  border: 1px solid green;
+  background: rgb(205, 255, 205);
+  border-radius: 10px;
+}
